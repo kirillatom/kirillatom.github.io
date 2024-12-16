@@ -1,0 +1,22 @@
+.radio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__item{
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 15px;
+        min-height: 23px;
+        padding-left: 23px;
+        color: @black;
+        cursor: pointer;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}

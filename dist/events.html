@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <link rel="stylesheet" href="styles/styles.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+  <header class="page-header">
+    <div class="page-header__container">
+      <a href="#" class="page-header__logo">
+        <svg class="page-header__logo-icon" width="202" height="147">
+          <use xlink:href="assets/icons/symbols.svg#logo"></use>
+        </svg>
+      </a>
+      <nav class="page-header__nav">
+        <a href="#" class="page-header__nav-link">Мероприятия</a>
+        <a href="#" class="page-header__nav-link">Блог</a>
+        <a href="#" class="page-header__nav-link">О нас</a>
+        <a href="#" class="page-header__nav-link">Контакты</a>
+      </nav>
+      <div class="page-geader__right-block">
+        <a href="#" type="button" class="page-header__btn btn">Войти</a>
+        <!--<a href="#" type="button" class="page-header__name">Александр С.</a>
+        <a href="#" type="button" class="page-header__logout">
+        <svg>
+        </svg>
+        </a>-->
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="events">
+      <section class="listing events__listing">
+        <h2 class="lisiting__title section-title">Мероприятия</h2>
+        <div class="listing__events-list">
+          <article class="event-card listing__event-card">
+            <a href="#" class="event-card__link">
+              <picture class="event-card__picture">
+                <img src="assets/images/events/nirvana.jpg" alt="nirvana" class="event-card__img" />
+              </picture>
+
+              <h4 class="event-card__title">Собираемся и слушаем альбом Nirvana</h4>
+
+              <p class="event-card__description">
+                Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий студийный материал.
+              </p>
+
+              <time datetime="2022-12-07T18:00" class="event-card__time">
+                07.12.2022 | начало 18.00
+              </time>
+            </a>
+          </article>
+          <article class="event-card listing__event-card">
+            <a href="#" class="event-card__link">
+              <picture class="event-card__picture">
+                <img src="assets/images/events/stuff.jpg" alt="stuff" class="event-card__img" />
+              </picture>
+
+              <h4 class="event-card__title">Есть тема, нужно обсудить с HowStuffWorks</h4>
+
+              <p class="event-card__description">
+                Один из самых популярных подкастов в мире. В нём авторы объясняют, как устроены разные вещи.
+              </p>
+
+              <time datetime="2022-12-14T18:30" class="event-card__time">
+                14.12.2022 | начало 18.30
+              </time>
+            </a>
+          </article>
+          <article class="event-card listing__event-card">
+            <a href="#" class="event-card__link">
+              <picture class="event-card__picture">
+                <img src="assets/images/events/sade.jpg" alt="sade" class="event-card__img" />
+              </picture>
+
+              <h4 class="event-card__title">Вечер | The Best Of Sade</h4>
+
+              <p class="event-card__description">
+                Музыка группы имеет электичный характе, сочетая в себе элементы музыки соул, джаза, ритм-блюза и фанка.
+              </p>
+
+              <time datetime="2022-12-16T20:00" class="event-card__time">
+                16.12.2022 | начало 20.00
+              </time>
+            </a>
+          </article>
+          <article class="event-card listing__event-card">
+            <a href="#" class="event-card__link">
+              <picture class="event-card__picture">
+                <img src="assets/images/events/malevich.jpg" alt="malevich" class="event-card__img" />
+              </picture>
+
+              <h4 class="event-card__title">Выставка Малевича в Томске</h4>
+
+              <p class="event-card__description">
+                Это будет самая полная выставка с 1988 года, того времени, когда впервые заговорили о Малевиче. Экспозиция займёт два этажа павильона.
+              </p>
+
+              <time datetime="2022-12-23T20:00" class="event-card__time">
+                23.12.2022 | начало 20.00
+              </time>
+            </a>
+          </article>
+          <article class="event-card listing__event-card">
+            <a href="#" class="event-card__link">
+              <picture class="event-card__picture">
+                <img src="assets/images/events/tatler.jpg" alt="tatler" class="event-card__img" />
+              </picture>
+
+              <h4 class="event-card__title">Мастер — класс по студийной съемке от Tatler</h4>
+
+              <p class="event-card__description">
+                Фотографы издания расскажут, как им удается создавать потрясающие кадры и что может испортить весь процесс.
+              </p>
+
+              <time datetime="2022-12-25T13:00" class="event-card__time">
+                25.12.2022 | начало 13.00
+              </time>
+            </a>
+          </article>
+          <article class="event-card listing__event-card">
+            <a href="#" class="event-card__link">
+              <picture class="event-card__picture">
+                <img src="assets/images/events/the hatters.jpg" alt="the hatters" class="event-card__img" />
+              </picture>
+
+              <h4 class="event-card__title">Повесилимся на славу на концерте The Hatters</h4>
+
+              <p class="event-card__description">
+                Российская джипси-фолк-рок группа, основанная в 2016 году в Санкт-Петербурге. В основной состав группы входят Юрий Музыченко
+              </p>
+
+              <time datetime="2022-12-27T10:00" class="event-card__time">
+                27.12.2022 | начало 10.00
+              </time>
+            </a>
+          </article>
+        </div>
+      </section>
+      <table class="table events__tariffs-table">
+        <thead class="table__thead">
+          <tr class="table__thead-tr">
+            <th class="table__thead-th"></th>
+            <th class="table__thead-th">Тариф «Light»</th>
+            <th class="table__thead-th">Тариф «Promo»</th>
+            <th class="table__thead-th">Тариф «All stars»</th>
+          </tr>
+        </thead>
+        <tbody class="table__tbody">
+          <tr class="table__tr">
+            <th class="table__tbody-th">Стоимость за час</th>
+            <td class="table__td">1 000 ₽</td>
+            <td class="table__td">3 000 ₽</td>
+            <td class="table__td">от 6 000 ₽</td>
+          </tr>
+          <tr class="table__tr">
+            <th class="table__tbody-th">Ведущий мероприятия</th>
+            <td class="table__td"></td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+          </tr>
+          <tr class="table__tr">
+            <th class="table__tbody-th">Фотосъемка</th>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+          </tr>
+          <tr class="table__tr">
+            <th class="table__tbody-th">Видеосъемка</th>
+            <td class="table__td"></td>
+            <td class="table__td"></td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+          </tr>
+          <tr class="table__tr">
+            <th class="table__tbody-th">Организация питания</th>
+            <td class="table__td"></td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+          </tr>
+          <tr class="table__tr">
+            <th class="table__tbody-th">Декор</th>
+            <td class="table__td"></td>
+            <td class="table__td"></td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+          </tr>
+          <tr class="table__tr">
+            <th class="table__tbody-th">Звуковое сопровождение</th>
+            <td class="table__td"></td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+          </tr>
+          <tr class="table__tr">
+            <th class="table__tbody-th">Дополнительное освещение</th>
+            <td class="table__td"></td>
+            <td class="table__td"></td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+          </tr>
+          <tr class="table__tr">
+            <th class="table__tbody-th">Клининг</th>
+            <td class="table__td"></td>
+            <td class="table__td"></td>
+            <td class="table__td">
+              <svg class="x-btn__icon" width="26" height="26">
+                <use xlink:href="assets/icons/symbols.svg#ok"></use>
+              </svg>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <footer class="page-footer">
+    footer
+  </footer>
+  <div class="pp" id="eventPP">
+    <div class="pp__wrapper">
+      <div class="pp__sticky-close">
+        <button type="button" title="Закрыть" class="pp__x-btn x-btn js-ppCloseBtn">
+          <svg class="x-btn__icon" width="12" height="12">
+            <use xlink:href="assets/icons/symbols.svg#x"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="pp__container">
+        <h2 class="pp__title">Заполните форму
+          <br /> и мы подберем вам площадку
+        </h2>
+        <form class="pp__form form">
+          <div class="form__list">
+            <div class="form__field form__field--w50 field">
+              <h6 class="field__title">Формат мероприятия:</h6>
+              <div class="radio">
+                <label class="radio__item">
+                  <input type="radio" name="format" value="master-class" class="radio__input" checked />
+                  <span class="radio__marker"></span>
+                  <span class="radio__label">Мастер-класс/семинар</span>
+                </label>
+                <label class="radio__item">
+                  <input type="radio" name="format" value="concert" class="radio__input" />
+                  <span class="radio__marker"></span>
+                  <span class="radio__label">Концерт/выступление</span>
+                </label>
+                <label class="radio__item">
+                  <input type="radio" name="format" value="pokaz" class="radio__input" />
+                  <span class="radio__marker"></span>
+                  <span class="radio__label">Выставка/показ</span>
+                </label>
+                <label class="radio__item">
+                  <input type="radio" name="format" value="other" class="radio__input" />
+                  <span class="radio__marker"></span>
+                  <span class="radio__label">Другое</span>
+                </label>
+
+              </div>
+            </div>
+            <div class="form__group form__group--w50">
+              <label class="form__field form__field--mb30 field">
+                <span class="field__title">Планируемое количество посетителей:
+                </span>
+                <select class="field__select" name="amount">
+                  <option value="20">до 20 человек</option>
+                  <option value="100">от 20 до 100 человек</option>
+                  <option value="500">от 100 до 500 человек</option>
+                  <option value="100">более 500 человек</option>
+                </select>
+              </label>
+              <div class="form__field field">
+                <h6 class="field__title">Дата проведения:
+                </h6>
+                <div class="field__date">
+                  <div class="field__date-inputs">
+                    <input type="text" class="field__date-input" placeholder="ДД" readonly>
+                    <input type="text" class="field__date-input" placeholder="ММ" readonly>
+                    <input type="text" class="field__date-input field__date-input--w110" placeholder="ГГГГ" readonly>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form__section">
+            <h6 class="form__title">
+              Контактные данные:
+            </h6>
+            <div class="form__list">
+              <label class="form__field form__field--w50 field">
+                <span class="field__label">Имя*</span>
+                <input type="text" name="Имя" placeholder="Имя" class="field__input" required />
+              </label>
+              <label class="form__field form__field--w50 field">
+                <span class="field__label">Фамилия*</span>
+                <input type="text" name="Фамилия" placeholder="Фамилия" class="field__input" required />
+              </label>
+              <label class="form__field form__field--w50 field">
+                <span class="field__label">Телефон*</span>
+                <input type="tel" name="Телефон" placeholder="+7 (___) ___ __ __" class="field__input" required />
+              </label>
+              <label class="form__field form__field--w50 field">
+                <span class="field__label">Email*</span>
+                <input type="email" name="Email" placeholder="Email" class="field__input" required />
+              </label>
+              <label class="form__field form__field-mb30 field">
+                <span class="field__title"> Есть пожелания? Напишите нам:</span>
+                <textarea class="field__textarea" name="text"></textarea>
+              </label>
+              <label class="check">
+                <input type="checkbox" class="check__input" name="agree" />
+                <span class="check__mark"></span>
+                <span class="check__label">Я соглашаюсь с пользовательским соглашением и с политикой использования персональных данных</span>
+              </label>
+              <div class="form__btns">
+                <button type="submit" class="form__btn btn">Отправить</button>
+                <button type="button" class="form__btn-close">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
